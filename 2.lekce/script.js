@@ -43,5 +43,7 @@ number +=1 ;
 number -=1 ;
 number *=3 ;
 number /=4 ;
+number++;
+number--;
 
 console.log(number);
