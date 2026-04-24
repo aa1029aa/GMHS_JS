@@ -54,3 +54,11 @@ function deleni(num1, num2) {
 }
 
 deleni(8,2)
+
+// Napis funkci printRange, ktera vypise do konzole všechna čísla od parametru start až po end. 
+
+function printRange(start, end) {
+  for (let i = start; i <= end; i++) console.log(i);
+}
+
+printRange(1, 5);
